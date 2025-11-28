@@ -16,7 +16,8 @@ while (s[len] != '\0')
 len++;
 }
 
-for (int i = len; i > 0; i--)
+int i;
+for (i = len; i > 0; i--)
 {
 write(1, &s[i - 1], 1);
 }
