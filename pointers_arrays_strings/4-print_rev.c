@@ -15,9 +15,10 @@ while (s[len] != '\0')
 {
 len++;
 }
+
 for(int i = len; i > 0; i--)
 {
-    write(1, &s[i-1], 1);
+write(1, &s[i-1], 1);
 }
 
 write(1, "\n", 1);
